@@ -1,0 +1,11 @@
+[tool.forma]
+name = "stripe"
+description = "Stripe payments - customers, invoices, subscriptions, products, webhooks"
+command = "stripe"
+origin = "vendor"
+status = "stable"
+auth = "oauth2"
+resources = ["customers", "invoices", "payments", "subscriptions", "products", "prices", "charges", "webhooks", "billing", "checkout"]
+install = "brew install stripe-cli"
+update = "brew upgrade stripe-cli"
+repo = "https://github.com/stripe/stripe-cli"
