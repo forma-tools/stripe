@@ -1,6 +1,7 @@
 # Stripe
 
 [![Forma](https://img.shields.io/badge/forma-stable-brightgreen.svg)](https://github.com/forma-tools/forma)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 > Stripe payments - customers, invoices, subscriptions, products, webhooks.
 
@@ -61,3 +62,7 @@ stripe login          # Browser OAuth
 stripe whoami         # Check status
 stripe config --list  # View config
 ```
+
+## Forma Protocol
+
+This tool follows the [Forma Protocol](https://github.com/forma-tools/forma).
